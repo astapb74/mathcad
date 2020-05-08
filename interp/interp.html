@@ -1,0 +1,155 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><meta name="generator" content="Mathcad Professional 14.0" /><title></title><style type="text/css">
+				
+		p 
+		{ 
+			margin: 0 0 0 0; 
+			font-family: Arial, sans-serif;
+			font-size:10pt;
+			font-weight: normal;
+			font-style: normal;
+			vertical-align: baseline;
+			color: black;
+			text-decoration: none;			
+		}
+		div
+		{
+			border-width:0px;
+			border-style: solid;
+			border-color: red;
+			
+		}
+		
+			body
+			{			
+				background-color: #fff;				
+			}
+		
+		p img { vertical-align: middle; }
+		p b, li b { font-weight : bold; }
+		p i, li i { font-style : italic; }
+		p u, li u { text-decoration : underline; }
+		p so, li so { text-decoration : line-through; }
+		p sub, p sub { font-size : 70%; vertical-align: sub; }
+		p sup, p sup { font-size : 70%; vertical-align: super; }
+		ul
+		{
+			padding-left	: 2em; /* for mozilla list marker box */
+			margin-left		: 0;   /* for IE list marker box */
+		}
+		ol
+		{
+			padding-left	: 2em; /* for mozilla list marker box */
+			margin-right 	: -0.5em;
+			margin-left		: 0;   /* for IE list marker box */
+		}
+		
+		p.Style1, li.Style1 /*Normal*/
+		{
+			margin-left: 0pt;
+		margin-right: 0pt;
+		text-align: left;
+		font-family: 'Arial', sans-serif;;
+		font-size: 10pt;font-weight: normal;
+		font-style: normal;
+		vertical-align: baseline;
+		
+		}
+	
+		p.Style2, li.Style2 /*Heading 1*/
+		{
+			margin-left: 0pt;
+		margin-right: 0pt;
+		text-align: left;
+		font-family: 'Arial', sans-serif;;
+		font-size: 13.26315789473684pt;font-weight: bold;
+		font-style: normal;
+		vertical-align: baseline;
+		
+		}
+	
+		p.Style3, li.Style3 /*Heading 2*/
+		{
+			margin-left: 0pt;
+		margin-right: 0pt;
+		text-align: left;
+		font-family: 'Arial', sans-serif;;
+		font-size: 12pt;font-weight: bold;
+		font-style: italic;
+		vertical-align: baseline;
+		
+		}
+	
+		p.Style4, li.Style4 /*Heading 3*/
+		{
+			margin-left: 0pt;
+		margin-right: 0pt;
+		text-align: left;
+		font-family: 'Arial', sans-serif;;
+		font-size: 12pt;font-weight: normal;
+		font-style: normal;
+		vertical-align: baseline;
+		
+		}
+	
+		p.Style5, li.Style5 /*Paragraph*/
+		{
+			margin-left: 0pt;
+		margin-right: 0pt;
+		text-indent: 21pt;
+		text-align: left;
+		font-family: 'Arial', sans-serif;;
+		font-size: 10pt;font-weight: normal;
+		font-style: normal;
+		vertical-align: baseline;
+		
+		}
+	
+		p.Style6, li.Style6 /*List*/
+		{
+			margin-left: 14.25pt;
+		margin-right: 0pt;
+		text-indent: -14.25pt;
+		text-align: left;
+		font-family: 'Arial', sans-serif;;
+		font-size: 10pt;font-weight: normal;
+		font-style: normal;
+		vertical-align: baseline;
+		
+		}
+	
+		p.Style7, li.Style7 /*Indent*/
+		{
+			margin-left: 108pt;
+		margin-right: 0pt;
+		text-align: left;
+		font-family: 'Arial', sans-serif;;
+		font-size: 10pt;font-weight: normal;
+		font-style: normal;
+		vertical-align: baseline;
+		
+		}
+	
+		p.Style8, li.Style8 /*Title*/
+		{
+			margin-left: 0pt;
+		margin-right: 0pt;
+		text-align: center;
+		font-family: 'Times New Roman', sans-serif;;
+		font-size: 24pt;font-weight: bold;
+		font-style: normal;
+		vertical-align: baseline;
+		
+		}
+	
+		p.Style9, li.Style9 /*Subtitle*/
+		{
+			margin-left: 0pt;
+		margin-right: 0pt;
+		text-align: center;
+		font-family: 'Times New Roman', sans-serif;;
+		font-size: 18pt;font-weight: normal;
+		font-style: normal;
+		vertical-align: baseline;
+		
+		}
+	</style></head><body><div id="mc-region-1" style="position: absolute; top: 3pt; left: 6pt; width: 140pt; "><a name="" /><p class="Style1"><b><u>Многомерная интерполяция</u></b></p></div><div id="mc-region-28" style="position: absolute; top: 44.25pt; left: 18pt; width: 332pt; "><a name="" /><p class="Style1">interp(S,X,Z,V) — скалярная функция, аппроксимирующая данные выборки </p><p class="Style1">двумерного поля по координатам x и y кубическими сплайнами:</p></div><div id="mc-region-29" style="position: absolute; top: 80.25pt; left: 66pt; width: 377.75pt; "><a name="" /><ul><li class="Style1" style="margin-left: 0pt; margin-right: 0pt; text-align: left; list-style-type: disc;">S — вектор вторых производных, созданный одной из сопутствующих функций cspline, pspline или lspline;</li><li class="Style1" style="margin-left: 0pt; margin-right: 0pt; text-align: left; list-style-type: disc;">X — матрица размерности N 2, определяющая диагональ сетки значений аргумента (элементы обоих столбцов соответствуют меткам x и y и расположены в порядке возрастания); </li><li class="Style1" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; text-align: left; list-style-type: disc;">Z — матрица действительных данных размерности N N; </li><li class="Style1" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; text-align: left; list-style-type: disc;">V — вектор из двух элементов, содержащий значения аргументов x и y, для <br />которых вычисляется интерполяция.<br /></li></ul></div><div id="mc-region-26" style="position: absolute; top: 198pt; left: 24pt; width: 54.75pt; "><a name="" /><img border="0" src=".\interp_images/IMG0001_443791031.PNG" id="generatedImage26" path=".\interp_images/IMG0001_443791031.PNG" style="width: 54.75pt;height: 78.75pt;"></img></div><div id="mc-region-27" style="position: absolute; top: 198pt; left: 126pt; width: 117pt; "><a name="" /><img border="0" src=".\interp_images/IMG0002_443791031.PNG" id="generatedImage27" path=".\interp_images/IMG0002_443791031.PNG" style="width: 117pt;height: 78.75pt;"></img></div><div id="mc-region-8" style="position: absolute; top: 279pt; left: 24pt; width: 73.5pt; "><a name="" /><img border="0" src=".\interp_images/IMG0003_443791031.PNG" id="generatedImage8" path=".\interp_images/IMG0003_443791031.PNG" style="width: 73.5pt;height: 12.75pt;"></img></div><div id="mc-region-9" style="position: absolute; top: 300.75pt; left: 24pt; width: 45pt; "><a name="" /><img border="0" src=".\interp_images/IMG0004_443791031.PNG" id="generatedImage9" path=".\interp_images/IMG0004_443791031.PNG" style="width: 45pt;height: 29.25pt;"></img></div><div id="mc-region-11" style="position: absolute; top: 315pt; left: 96pt; width: 107.25pt; "><a name="" /><img border="0" src=".\interp_images/IMG0005_443791031.PNG" id="generatedImage11" path=".\interp_images/IMG0005_443791031.PNG" style="width: 107.25pt;height: 12.75pt;"></img></div><div id="mc-region-13" style="position: absolute; top: 351pt; left: 24pt; width: 29.25pt; "><a name="" /><img border="0" src=".\interp_images/IMG0006_443791031.PNG" id="generatedImage13" path=".\interp_images/IMG0006_443791031.PNG" style="width: 29.25pt;height: 12.75pt;"></img></div><div id="mc-region-16" style="position: absolute; top: 375pt; left: 24pt; width: 34.5pt; "><a name="" /><img border="0" src=".\interp_images/IMG0007_443791031.PNG" id="generatedImage16" path=".\interp_images/IMG0007_443791031.PNG" style="width: 34.5pt;height: 12.75pt;"></img></div><div id="mc-region-18" style="position: absolute; top: 375pt; left: 96pt; width: 36pt; "><a name="" /><img border="0" src=".\interp_images/IMG0008_443791046.PNG" id="generatedImage18" path=".\interp_images/IMG0008_443791046.PNG" style="width: 36pt;height: 12.75pt;"></img></div><div id="mc-region-21" style="position: absolute; top: 399.75pt; left: 24pt; width: 127.5pt; "><a name="" /><img border="0" src=".\interp_images/IMG0009_443791046.PNG" id="generatedImage21" path=".\interp_images/IMG0009_443791046.PNG" style="width: 127.5pt;height: 59.25pt;"></img></div><div id="mc-region-22" style="position: absolute; top: 504pt; left: 30pt; width: 181.5pt; "><a name="" /><img border="0" src=".\interp_images/IMG0011_443791046.PNG" id="generatedImage22" path=".\interp_images/IMG0011_443791046.PNG" style="width: 181.5pt;height: 204pt;"></img></div><div id="mc-region-25" style="position: absolute; top: 504pt; left: 228pt; width: 181.5pt; "><a name="" /><img border="0" src=".\interp_images/IMG0013_443791046.PNG" id="generatedImage25" path=".\interp_images/IMG0013_443791046.PNG" style="width: 181.5pt;height: 204pt;"></img></div><div></div></body></html>
